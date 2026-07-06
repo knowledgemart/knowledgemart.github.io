@@ -1,3 +1,3 @@
-# thedarkside.py
+# The Knowledge Mart
 
-Usees the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) Jekyll theme.
+A Data Engineering blog. Uses the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) Jekyll theme.
