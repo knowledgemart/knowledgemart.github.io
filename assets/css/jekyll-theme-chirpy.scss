@@ -19,3 +19,65 @@
   font-size: 1.3rem;
   white-space: nowrap;
 }
+
+/* ── Top bar on wide screens ──────────────────────────────────────────────
+   Drop the "Home" breadcrumb and turn the search box into a wide bar aligned
+   over the article column. The search stays inside the top bar (which sits
+   above the row that holds the articles + side panel), so the "Recently
+   Updated / Trending Tags" panel does not move. Below 850px the theme's mobile
+   search-trigger behaviour is left untouched. */
+
+/* Remove the breadcrumb label ("Home", post titles, …) from the top bar. */
+#topbar #breadcrumb {
+  display: none;
+}
+
+/* The values below make the search bar's left/right edges coincide with the
+   post cards. `#topbar` has 1rem side padding; `main` has 1.5rem side padding
+   (`px-md-4`); the Bootstrap `ms-3 ms-lg-0` classes on `#search` are
+   `!important`, hence the `!important` on margin-left. */
+
+@media (min-width: 850px) {
+  /* Only the search box is left in the bar now — line it up on the left so it
+     sits over the articles instead of being pushed to the far right. */
+  #topbar {
+    justify-content: flex-start !important;
+  }
+
+  #search {
+    flex: none;
+    max-width: none; /* was capped at 200px */
+    margin-right: 0; /* was a right-align offset */
+    /* 850–991px: article column is col-12 (full row width) and #topbar has no
+       side padding at this size. */
+    margin-left: 1.5rem !important;
+    width: calc(100% - 3rem);
+  }
+}
+
+@media (min-width: 992px) {
+  /* 992–1199px: the theme sets col-lg-11 to 96% of the row and centres it, so
+     the cards start at 2% + 1.5rem from the row edge. #topbar now has 1rem side
+     padding, and our percentages resolve against its content box (row − 2rem),
+     hence the 0.64px / 17.28px corrections (2% and 96% of 32px). */
+  #search {
+    margin-left: calc(2% + 8.64px) !important;
+    width: calc(96% - 17.28px);
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Side panel appears and the article column is col-xl-9 (75%) with an extra
+     0.25rem padding on #post-list (`px-xl-1`). */
+  #search {
+    margin-left: 0.75rem !important;
+    width: calc(75% - 2rem);
+  }
+}
+
+@media (min-width: 1650px) {
+  /* The theme adds `padding-right: 4.5rem` to main.col-12 — cards get narrower. */
+  #search {
+    width: calc(75% - 5rem);
+  }
+}
