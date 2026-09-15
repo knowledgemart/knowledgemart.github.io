@@ -1,8 +1,6 @@
 ---
 title: How to Monitor Credit Usage in Snowflake
-author: thedarkside
 date: 2023-09-15 00:00:00 +0100
-categories: [Blog]
 tags: [Snowflake]
 ---
 

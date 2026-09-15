@@ -1,8 +1,6 @@
 ---
 title: "Reconsidering the S3 Landing Layer in API-to-Snowflake Batch Pipelines"
-author: Klaudia Wolińska
 date: 2026-09-15 00:00:00 +0100
-categories: [Blog]
 tags: [Snowflake, AWS, S3, DataEngineering]
 ---
 

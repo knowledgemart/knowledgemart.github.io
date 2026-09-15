@@ -1,8 +1,6 @@
 ---
 title: Solve gaps and islands problem in AWS Redshift
-author: thedarkside
 date: 2020-03-20 00:00:00 +0100
-categories: [Tutorials]
 tags: [SQL, AWS, Redshift]
 ---
 

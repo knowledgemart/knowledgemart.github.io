@@ -1,8 +1,6 @@
 ---
 title:  "Star vs Snowflake Schema – Choosing the Right Model"
-author: thedarkside
 date:   2023-02-15 00:00:00 +0000
-categories: [Blog]
 tags: [DataModeling]
 ---
 

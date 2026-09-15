@@ -1,8 +1,6 @@
 ---
 title: Redshift Sort Keys Explained
-author: thedarkside
 date: 2020-09-29 00:00:00 +0100
-categories: [Blog]
 tags: [AWS, Redshift]
 ---
 

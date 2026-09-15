@@ -5,7 +5,7 @@ Guidance for working in this repository.
 ## What this is
 
 - Personal blog **The Knowledge Mart** (Data Engineering), built with the **Chirpy** Jekyll theme (`jekyll-theme-chirpy`, gem-based — currently resolves to 7.6).
-- GitHub Pages **user site**: repo `knowledgemart/knowledgemart.github.io` → served at `https://knowledgemart.github.io/`. Because it is a `username.github.io` repo, the GitHub username in `_config.yml` must stay `knowledgemart`.
+- GitHub Pages **user site**: repo `knowledgemart/knowledgemart.github.io` → served at `https://knowledgemart.github.io/` (`url:` in `_config.yml` must stay that host). `github.username` and `social.links` in `_config.yml` only feed the sidebar icon and the author/copyright links, so they point at the author's personal profile (`klaudiawolinska`), not the `knowledgemart` org.
 
 ## Local preview — always via Docker
 

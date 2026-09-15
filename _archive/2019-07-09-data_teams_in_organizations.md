@@ -1,9 +1,7 @@
 ---
 
 title: Data Teams In Organizations
-author: thedarkside
 date: 2019-07-09 00:00:00 +0100
-categories: [Blog]
 tags: [DataScience, MachineLearning, AI, DataEngineering, BusinessIntelligence]
 
 ---

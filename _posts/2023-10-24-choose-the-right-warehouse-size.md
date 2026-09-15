@@ -1,8 +1,6 @@
 ---
 title: Choosing the Right Snowflake Warehouse Size
-author: thedarkside
 date: 2023-10-24 00:00:00 +0100
-categories: [Blog]
 tags: [Snowflake]
 ---
 

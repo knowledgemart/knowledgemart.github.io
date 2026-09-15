@@ -16,17 +16,18 @@ timezone:
 
 title: The Knowledge Mart # the main title
 
-tagline: Data Engineering Blog # it will display as the subtitle
+tagline: by Klaudia Wolińska
 
-#description: >- # used by seo meta and the atom feed
-  #A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: >- # used by seo meta and the atom feed
+  Data engineering blog by Klaudia Wolińska — practical notes on Snowflake,
+  Airflow, AWS and building reliable data platforms.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://knowledgemart.github.io/"
 
 github:
-  username: knowledgemart # change to your GitHub username
+  username: klaudiawolinska
 
 twitter:
   username: # change to your Twitter username
@@ -34,11 +35,11 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: The Knowledge Mart
+  name: Klaudia Wolińska
   email: klaudiawol93@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/knowledgemart # change to your GitHub homepage
+    - https://github.com/klaudiawolinska
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -216,10 +217,8 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [tags]
   layouts:
-    category: category
     tag: tag
   permalinks:
     tag: /tags/:name/
-    category: /categories/:name/

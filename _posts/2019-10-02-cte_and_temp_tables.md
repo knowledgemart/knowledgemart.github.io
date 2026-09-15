@@ -1,8 +1,6 @@
 ---
 title: CTEs vs Temporary Tables
-author: thedarkside
 date: 2019-10-02 00:00:00 +0100
-categories: [Blog]
 tags: [SQL]
 ---
 

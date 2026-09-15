@@ -1,8 +1,6 @@
 ---
 title: Statistics 101 - Measuring Data
-author: thedarkside
 date: 2019-08-12 00:00:00 +0100
-categories: [Tutorials]
 tags: [Statistics]
 ---
 

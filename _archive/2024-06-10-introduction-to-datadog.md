@@ -1,8 +1,6 @@
 ---
 title: "Datadog – The Heart of Modern Observability"
-author: thedarkside
 date: 2024-06-10 00:00:00 +0100
-categories: [Blog]
 tags: [Datadog, Infrastructure, Monitoring]
 ---
 

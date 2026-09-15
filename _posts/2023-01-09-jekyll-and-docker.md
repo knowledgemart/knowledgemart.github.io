@@ -1,8 +1,6 @@
 ---
 title: Create a static website using Jekyll and Docker
-author: thedarkside
 date: 2023-01-09 00:00:00 +0100
-categories: [Tutorials]
 tags: [Docker]
 ---
 

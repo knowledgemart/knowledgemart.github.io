@@ -1,8 +1,6 @@
 ---
 title: Python regular expressions and string manipulation
-author: thedarkside
 date: 2019-08-06 00:00:00 +0100
-categories: [Tutorials]
 tags: [Python]
 ---
 

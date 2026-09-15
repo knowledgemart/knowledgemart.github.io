@@ -1,13 +1,17 @@
 ---
 title: About
 icon: fas fa-info-circle
-order: 4
+order: 3
 ---
 
-# Hi, I’m Klaudia Wolińska
+# Klaudia Wolińska
 
-I’m a Data Engineer focused on reliable data platforms, warehouse
-performance, data quality and observability.
+Senior Data Engineer with 7+ years of experience. I build reliable, testable data pipelines with a focus on orchestration, warehouse modelling, data quality and operational ownership.
 
-I work primarily with Apache Airflow, Snowflake, Python, SQL, dbt and AWS.
-This blog contains practical notes from building and operating data systems.
+Focus: Apache Airflow · Snowflake · Python · SQL · dbt · AWS
+
+This blog is where I write practical notes on data engineering, Snowflake
+cost and performance, observability, and data-platform design.
+
+[GitHub](https://github.com/klaudiawolinska) ·
+[LinkedIn](https://www.linkedin.com/in/klaudiawolinska/)

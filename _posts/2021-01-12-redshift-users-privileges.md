@@ -1,8 +1,6 @@
 ---
 title: "Managing Users, Roles & Privileges in Amazon Redshift" 
-author: thedarkside
 date: 2021-01-12 00:00:00 +0100
-categories: [Blog]
 tags: [AWS, Redshift]
 ---
 
